@@ -7,5 +7,13 @@ aside {
 file {
     color:wheat;
     padding: 2px 25%;
-    background: #505050;
+    background: #404040;
+}
+
+header{
+    padding: 15px /* 25% */;
+    font-style: italic;
+    background: #303030;
+    color:#a0a0a0;
+    /* font-size: 85%; */
 }

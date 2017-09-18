@@ -5,6 +5,7 @@ class Sidebar extends Component {
     render() {
         return (
             <aside>
+                <header>Файлы проекта:</header>
                 <file icon="bas">Autorun.bas</file>
             </aside>
         );
