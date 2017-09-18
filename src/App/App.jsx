@@ -13,7 +13,10 @@ class App extends Component {
         <CodeMirror theme="monokai" style={{
           height: '100vh',
           width: '100vw'
-        }} lineNumbers={true}/>
+        }}
+        lineNumbers={true}
+        
+        />
       </div>
     );
   }

@@ -1,5 +1,6 @@
-.icon-bas {}
-
-.icon-mbm {}
-
-.icon-mbl {}
+file[icon=bas] {
+    background: url("./icons/react.svg") left center no-repeat;
+    background-size: 16px;
+    padding-left: 16px;
+    /*padding-left: 32px;*/
+}
