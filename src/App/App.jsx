@@ -15,6 +15,8 @@ class App extends Component {
           width: '100vw'
         }}
         lineNumbers={true}
+        mode={"text/javascript"}
+        autoCloseBrackets={true}
         
         />
       </div>

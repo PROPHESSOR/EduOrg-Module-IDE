@@ -33,6 +33,18 @@
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
+  <canvas id="c" class="canvas" style="display:none"></canvas>
+  <script>
+  $Config = {
+            type: 'graphic', //graphic/console/api
+            canvas_size: [0, 0, false], //[x,y,вместить]
+            Debug_Mode: true,
+            name: "JsMB - IDE",
+            fullscreen: false
+        }
+  function Main(){console.log("Main!")};
+  </script>
+  <script src="%PUBLIC_URL%/MobileBasic.dll"></script>
   <div id="root"></div>
   <!--
       This HTML file is a template.
