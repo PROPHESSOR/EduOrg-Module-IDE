@@ -3,3 +3,7 @@
     height: 100vh;
     background: #303030;
 }
+
+.CodeMirror {
+    height: 100vh !important;
+}
