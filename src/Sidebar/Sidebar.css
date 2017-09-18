@@ -5,15 +5,27 @@ aside {
 }
 
 file {
-    color:wheat;
-    padding: 2px 25%;
-    background: #404040;
+    color: #fff;
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+    background: #3A3A3A;
+    display: block;
+    box-sizing: border-box;
 }
 
-header{
-    padding: 15px /* 25% */;
+file:hover {
+    background: #4A4A4A;
+    cursor: pointer;
+}
+
+file.active {
+    background: #5A5A5A;
+}
+
+header {
+    padding: 15px;
     font-style: italic;
     background: #303030;
-    color:#a0a0a0;
-    /* font-size: 85%; */
+    color: #a0a0a0;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./Sidebar.css";
+import "./Icons.css";
 
 class Sidebar extends Component {
     render() {
