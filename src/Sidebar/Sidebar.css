@@ -3,3 +3,9 @@ aside {
     background: #202020;
     box-shadow: 0 0 2px 0 #000;
 }
+
+file {
+    color:wheat;
+    padding: 2px 25%;
+    background: #505050;
+}
