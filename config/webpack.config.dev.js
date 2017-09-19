@@ -261,4 +261,5 @@ module.exports = {
   performance: {
     hints: false,
   },
+  target: "node-webkit"
 };

@@ -9,7 +9,7 @@ import 'codemirror/theme/monokai.css';
 
 require('codemirror/mode/javascript/javascript');
 
-//require('../menubar');
+require('../menubar');
 
 
 class App extends Component {
