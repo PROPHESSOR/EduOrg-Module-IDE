@@ -4,7 +4,13 @@ import './App.css';
 import CodeMirror from 'react-codemirror';
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/monokai.css';
+
+//require('../MobileBasic');
+
 require('codemirror/mode/javascript/javascript');
+
+//require('../menubar');
+
 
 class App extends Component {
   render() {

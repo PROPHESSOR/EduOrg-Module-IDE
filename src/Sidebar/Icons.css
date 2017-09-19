@@ -1,6 +1,15 @@
-file[icon=bas] {
-    background: url("./icons/react.svg") left center no-repeat;
+file:before {
+    background: url("./icons/hz.svg") left center no-repeat;
     background-size: 16px;
     padding-left: 16px;
-    /*padding-left: 32px;*/
+    content: " ";
+    margin-right: 8px;
+}
+
+file[icon=bas]:before {
+    background: url("./icons/react.svg") left center no-repeat;
+}
+
+file[icon=js]:before {
+    background: url("./icons/js.svg") left center no-repeat;
 }
