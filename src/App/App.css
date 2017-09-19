@@ -4,6 +4,10 @@
     background: #303030;
 }
 
+.codemirror {
+    width: 100%;
+}
+
 .CodeMirror {
     height: 100vh !important;
 }

@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import './App.css';
-import CodeMirror from 'react-code-mirror';
+import CodeMirror from 'react-codemirror';
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/monokai.css';
+require('codemirror/mode/javascript/javascript');
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Sidebar />
-        <CodeMirror theme="monokai" style={{
-          height: '100vh',
-          width: '100vw'
-        }}
-        lineNumbers={true}
-        mode={"text/javascript"}
-        autoCloseBrackets={true}
-        
+        <CodeMirror
+          className="codemirror"
+          options={{
+            theme: "monokai",
+            lineNumbers: true,
+            mode: "text/javascript",
+            autoCloseBrackets: true
+          }}
         />
       </div>
     );
