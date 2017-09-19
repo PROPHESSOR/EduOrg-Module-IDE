@@ -29,3 +29,10 @@ header {
     background: #303030;
     color: #a0a0a0;
 }
+
+button{
+    color:#a0a0a0;
+    background: #404040;
+    border:0;
+    border-radius: 3px;
+}
