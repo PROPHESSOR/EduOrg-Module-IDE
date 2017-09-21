@@ -1,0 +1,5 @@
+div.code textarea{
+    /* width:100px; */
+    display: flex;
+    flex-direction: column;
+}

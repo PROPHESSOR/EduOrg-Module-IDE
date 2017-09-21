@@ -8,17 +8,37 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="css/index.css">
 
+  <link rel="stylesheet" href="libs/cm/lib/codemirror.css">
+  <link rel="stylesheet" href="libs/cm/theme/monokai.css">
+  <link rel="stylesheet" href="libs/cm/addon/hint/show-hint.css">
+
+  <script src="libs/jquery.min.js"></script>
+  <script src="libs/cm/lib/codemirror.js"></script>
+  <script src="libs/cm/lib/codemirror.js"></script>
+  <script src="libs/cm/mode/javascript/javascript.js"></script>
+  <script src="libs/cm/mode/css/css.js"></script>
+  <script src="libs/cm/mode/htmlmixed/htmlmixed.js"></script>
+  <script src="libs/cm/addon/edit/matchbrackets.js"></script>
+  <script src="libs/cm/addon/comment/continuecomment.js"></script>
+  <script src="libs/cm/addon/comment/comment.js"></script>
+  <script src="libs/cm/addon/edit/closebrackets.js"></script>
+
   <title>JsMB IDE</title>
 </head>
 
 <body>
   <div class="App">
     <aside>
-      <header>Файлы проекта:<button onClick="Sidebar.addFile(prompt('Filename:',1))">+</button></header>
+      <header>Файлы проекта:<button onclick="Sidebar.addFile(prompt('Filename:',1))">+</button></header>
       <div id="files">
-        <file icon=bas fileid="0">Autorun.bas</file>
+        <file icon="bas" fileid="0">Autorun.bas</file>
       </div>
     </aside>
+
+    <div class="code">
+      <textarea id="code">fillScreen(rgb(random(0,255),random(0,255),random(0,255)));</textarea><br/>
+      <script src="js/cminit.js"></script>
+    </div>
   </div>
   <canvas id="c" class="canvas" style="display:none"></canvas>
   <script src="js/jsmbinit.js"></script>
