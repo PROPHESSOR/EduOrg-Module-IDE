@@ -1,0 +1,27 @@
+<!Doctype HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/index.css">
+
+  <title>JsMB IDE</title>
+</head>
+
+<body>
+  <div class="App">
+    <aside>
+      <header>Файлы проекта:<button onClick="Sidebar.addFile(prompt('Filename:',1))">+</button></header>
+      <File icon=bas fileid="0">Autorun.bas</File>
+  </aside>
+  </div>
+  <canvas id="c" class="canvas" style="display:none"></canvas>
+  <script src="js/jsmbinit.js"></script>
+  <script src="libs/MobileBasic.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+@import url("App.css");
+@import url("Sidebar.css");
+@import url("Topbar.css");
+@import url("Icons.css");
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+* {
+  user-select: none;
+  -webkit-user-select: none;
+}

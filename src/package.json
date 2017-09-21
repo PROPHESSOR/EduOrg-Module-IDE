@@ -1,0 +1,26 @@
+{
+    "name": "jsmb-ide",
+    "version": "0.0.1",
+    "description": "Desktop IDE for the JsMobileBasic",
+    "main": "index.html",
+    "scripts": {
+      "test": "jsmb ./"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/PROPHESSOR/JsMB-IDE.git"
+    },
+    "keywords": [
+      "IDE",
+      "JsMB",
+      "JsMobileBasic",
+      "MobileBasicPRO"
+    ],
+    "author": "PROPHESSOR, UsernameAK",
+    "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/PROPHESSOR/JsMB-IDE/issues"
+    },
+    "homepage": "https://github.com/PROPHESSOR/JsMB-IDE#readme"
+  }
+  
