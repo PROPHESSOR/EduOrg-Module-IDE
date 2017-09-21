@@ -3,25 +3,35 @@ const Sidebar = {
         {
             "name":"Autorun.bas",
             "path":"Autorun.bas",
-            active: false
+            active: false,
+            "type":"bas"
         }
     ],
 
     listeners:{
-        click:function(){
-            //TODO: Write me...
+        click:function(element){
+            //TODO: Клик по элементу
+            global.$("file").removeClass("active");
+            global.$(element).addClass("active");
+        },
+        menu:function(element){
+            //TODO: Контекстное меню элемента
+            return false;
         }
     },
 
     utils:{
-        getFileById:function(){
+        getFileById:function(id){
             //TODO: Write me...
         }
     },
 
     render:{
-        files:function(){
-            //TODO: Write me...
+        files:function($){
+            global.$("#files").html(``);
+            Sidebar._files.forEach(function(e, i) {
+                global.$("#files").append(`<file icon="${e.type}" onclick="Sidebar.listeners.click(this)" oncontextmenu="Sidebar.listeners.menu(this)" fileid="${i}">${e.name}</file>`);
+            });
         }
     },
 
