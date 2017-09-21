@@ -1,3 +1,5 @@
 const Sidebar = require("./js/Sidebar");
 
-console.log(1);
+$(document).on("load", function(){
+    Sidebar.render.files();
+})

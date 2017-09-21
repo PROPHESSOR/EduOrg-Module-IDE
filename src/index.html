@@ -15,8 +15,10 @@
   <div class="App">
     <aside>
       <header>Файлы проекта:<button onClick="Sidebar.addFile(prompt('Filename:',1))">+</button></header>
-      <File icon=bas fileid="0">Autorun.bas</File>
-  </aside>
+      <div id="files">
+        <file icon=bas fileid="0">Autorun.bas</file>
+      </div>
+    </aside>
   </div>
   <canvas id="c" class="canvas" style="display:none"></canvas>
   <script src="js/jsmbinit.js"></script>
