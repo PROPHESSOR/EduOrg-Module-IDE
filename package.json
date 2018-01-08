@@ -5,8 +5,8 @@
   "main": "src/index.html",
   "scripts": {
     "test": "jsmb ./src",
-    "start":"jsmb ./build",
-    "build":"gulp build"
+    "start": "jsmb ./build",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
   "window": {
     "width": 1024,
     "height": 768
+  },
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }

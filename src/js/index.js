@@ -20,7 +20,12 @@ $$$ = {
         menuAdd("project", "Новый проект", App.bar.project.New);
         menuAdd("project", "Открыть проект", App.bar.project.open);
 
+        menuAdd("run", "Запустить", App.bar.run.run);
+        menuAdd("run", "Остановить", App.bar.run.stop);
+        menuAddSeparator("run");
+
         menuBarAdd("bar", "Проект", "project");
+        menuBarAdd("bar", "Запуск", "run");
         menuBarShow("bar");
     }
 }
