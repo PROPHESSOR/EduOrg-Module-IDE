@@ -1,3 +1,5 @@
+// const MenuBar = require("./MenuBar");
+
 const App = {
     bar:{
         project:{
@@ -6,7 +8,7 @@ const App = {
         }
     },
 
-    menubar:function(){
+    menubar:function() {
         menuAdd("project", "Новый проект", App.bar.project.New);
         menuAdd("project", "Открыть проект", App.bar.project.open);
 
